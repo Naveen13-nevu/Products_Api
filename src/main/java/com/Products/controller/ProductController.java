@@ -42,7 +42,6 @@ public List<Product> getByCategory(@PathVariable String category) {
         productService.deleteProduct(id);
         return "product deleted successfully";
     }
-
 }
 
 

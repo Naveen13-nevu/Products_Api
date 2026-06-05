@@ -1,6 +1,5 @@
 package com.Products.model;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,3 +17,4 @@ public class Product {
     private String category;
     private double price;
 }
+
